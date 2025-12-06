@@ -119,13 +119,7 @@ ul {
     border-radius: 10px;
 }
 
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
-}
+
 
 
 
