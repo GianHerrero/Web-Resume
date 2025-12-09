@@ -138,6 +138,14 @@ ul {
 }
 
 .video-container {
+    display: block;
+}
+
+.video-mobile {
+    display: none;
+}
+
+.video-container {
     position: relative;
     width: 400px;
     padding-bottom: 225px; 
@@ -156,6 +164,32 @@ ul {
     border-radius: 20px;
 }
 
+@media (max-width: 600px) {
+
+    .video-container {
+        display: none;  
+    }
+
+    .video-mobile {
+        display: block; 
+    }
+
+    .video-mobile {
+        width: 100%;             
+        padding-bottom: 56.25%;  
+        height: 0;
+        overflow: hidden;
+        border-radius: 15px;
+        position: relative;
+    }
+
+    .video-mobile iframe {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border-radius: 15px;
+    }
+}
 
 
 
