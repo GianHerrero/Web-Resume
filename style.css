@@ -201,12 +201,13 @@ ul {
 
 .Certifications img {
     width: 100%;          
-    max-width: 450px;   
+    max-width: 600px;   
     height: auto;        
     display: block;
     margin: 0 auto 20px;  
     border-radius: 10px;  
 }
+
 
 
 
